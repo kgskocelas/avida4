@@ -264,8 +264,8 @@ public:
 
         // this is used for line of descent tracking. It's memory expensive. Normally I run with 1 gig. If
         // I use LOD - it ups it to 4 gigs.
-//        add_event<datafiles::mrca_lineage>(ea);
-//        add_event<subpopulation_founder_event>(ea);
+        add_event<datafiles::mrca_lineage>(ea);
+        add_event<subpopulation_founder_event>(ea);
         add_event<task_performed_tracking>(ea);
 
     }

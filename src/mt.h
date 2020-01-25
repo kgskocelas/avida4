@@ -275,7 +275,7 @@ struct mt_gls_propagule : end_of_update_event<MEA> {
                 .add_field("mean_rep_time")
                 .add_field("mean_res")
                 .add_field("mean_multicell_size")
-                .add_field("mean_mc_tissue_births") // mean number of individual cell births within multicells
+                .add_field("mean_mc_tissue_rep_attempts") // mean number of times cell rep in a mc was attempted
                 .add_field("mean_germ_num")
                 .add_field("mean_pop_num")
                 .add_field("mean_germ_percent")
